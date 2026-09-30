@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Solarvion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">Solarvion</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-nav="home">Home</a></li>
+      <li><a href="products.html" data-nav="products">Products</a></li>
+      <li><a href="packages.html" data-nav="packages">Packages</a></li>
+      <li><a href="services.html" data-nav="services">Services</a></li>
+      <li><a href="gallery.html" data-nav="gallery">Gallery</a></li>
+      <li><a href="reviews.html" data-nav="reviews">Reviews</a></li>
+      <li><a href="faq.html" data-nav="faq">FAQ</a></li>
+      <li><a href="about.html" data-nav="about">About</a></li>
+      <li><a href="contact.html" data-nav="contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <div class="page-banner">
+      <div class="section-inner">
+        <h1>Contact Us</h1>
+        <p>Quote, stock check, ya installation ke liye seedha rabta karein.</p>
+      </div>
+    </div>
+
+    <section class="contact page-section">
+      <div class="contact-panel">
+        <div class="contact-person">
+          <p class="contact-name">Shoukat Ali</p>
+          <p class="contact-role">Owner · Solarvion</p>
+          <a class="contact-phone" href="tel:+923044371110">0304 437 1110</a>
+          <div class="contact-links">
+            <a class="contact-whatsapp" href="https://wa.me/923044371110" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="contact-whatsapp alt" href="tel:+923044371110">Call Now</a>
+            <a class="contact-whatsapp alt" href="products.html">See Products</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            Your Name
+            <input type="text" name="name" required placeholder="Enter your name" />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" required placeholder="03XX XXXXXXX" />
+          </label>
+          <label>
+            Interested In
+            <select name="product" id="productSelect">
+              <option>Custom Quote</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="3" placeholder="Quantity, location, or questions..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <p class="form-note" id="formNote" hidden>Thanks! Call or WhatsApp Shoukat Ali on 0304 437 1110 for a quick reply.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-brand">Solarvion</p>
+    <div class="footer-links">
+      <a href="products.html">Products</a>
+      <a href="packages.html">Packages</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://wa.me/923044371110" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <p>© 2026 Solarvion. All rights reserved.</p>
+    <p>Contact: Shoukat Ali · <a href="tel:+923044371110">0304 437 1110</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
